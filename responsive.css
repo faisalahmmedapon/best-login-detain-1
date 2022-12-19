@@ -1,0 +1,60 @@
+@media screen and (max-width: 1024px) {
+    .content_box{
+        width: 90%;
+    }
+    .container{
+        height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .input_box{
+        flex-direction: column;
+    }
+
+    .input_left{
+        width: 100%;
+        order: 2;
+    }
+
+    .input_right{
+        width: 100%;
+        border:none;
+        order: 1;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .name_box{
+        flex-direction: column;
+    }
+    .name_box input{
+        width: 100%;
+    }
+    
+    .name_box input:nth-child(1){
+        margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .input_left h1{
+        font-size: 20px;
+    }
+    .log_btn button{
+        font-size: 12px;
+    }
+    .login_btn{
+        flex-direction: column;
+    }
+
+    .login_btn button{
+        margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+   .input_box{
+    padding:10px;
+   }
+  }
